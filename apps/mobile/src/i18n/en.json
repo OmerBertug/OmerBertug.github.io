@@ -1,0 +1,119 @@
+{
+  "tabs": {
+    "dashboard": "Dashboard",
+    "analytics": "Analytics",
+    "notifications": "Notifications"
+  },
+  "protection": {
+    "title": "App Protection",
+    "immutableMode": "Immutable Mode",
+    "immutableModeDesc": "Settings cannot be changed outside the maintenance window",
+    "protectedAccess": "Protected Access",
+    "protectedAccessDesc": "Biometric authentication required to access settings",
+    "tamperProtection": "Tamper Protection",
+    "tamperProtectionDesc": "Prevents app uninstallation",
+    "uninstallWindow": "Uninstall Window",
+    "immutableWindow": "Maintenance Window",
+    "windowSuffix": "(10 min)",
+    "lockedHint": "Cannot change outside maintenance window"
+  },
+  "appBlocking": {
+    "title": "App & Group Blocking",
+    "searchPlaceholder": "Search apps...",
+    "shortVideoTitle": "Short Video Blocker",
+    "platforms": {
+      "INSTAGRAM_REELS": "Instagram Reels",
+      "YOUTUBE_SHORTS": "YouTube Shorts",
+      "TIKTOK_EXPLORE": "TikTok Explore",
+      "REDDIT_VIDEOS": "Reddit Videos",
+      "SNAPCHAT_STORIES": "Snapchat Stories",
+      "FACEBOOK_REELS": "Facebook Reels"
+    },
+    "universalLimit": "Universal Limit",
+    "universalLimitUnit": "minutes",
+    "statusAccessible": "Accessible",
+    "statusBlocked": "Blocked",
+    "usedOf": "Used {{used}} / {{limit}} min",
+    "groups": {
+      "GAMING": "Gaming",
+      "SOCIAL": "Social Media",
+      "STREAMING": "Streaming",
+      "PRODUCTIVITY": "Productivity",
+      "CUSTOM": "Custom Group"
+    }
+  },
+  "websiteBlocker": {
+    "title": "Website Blocker",
+    "nsfwFilter": "Adult Content Filter",
+    "nsfwFilterDesc": "Automatically blocks inappropriate websites",
+    "customBlacklist": "Custom Blocklist",
+    "addSite": "+ Add Site",
+    "sitePlaceholder": "e.g. example.com",
+    "errors": {
+      "invalidDomain": "Enter a valid domain (e.g. example.com)",
+      "tooLong": "Domain must be 253 characters or fewer",
+      "reservedTld": "This domain cannot be blocked (reserved TLD)",
+      "duplicate": "This domain is already in the list",
+      "vpnFailed": "VPN could not start — filter cannot be applied"
+    }
+  },
+  "analytics": {
+    "screenTime": "Screen",
+    "dataUsage": "Data",
+    "days": {
+      "MON": "Mon",
+      "TUE": "Tue",
+      "WED": "Wed",
+      "THU": "Thu",
+      "FRI": "Fri",
+      "SAT": "Sat",
+      "SUN": "Sun"
+    },
+    "limitSheet": {
+      "title": "Daily Limit",
+      "noLimit": "No Limit",
+      "minutes": "min"
+    },
+    "dataRow": {
+      "wifi": "WiFi: {{mb}} MB",
+      "cellular": "Mobile: {{mb}} MB",
+      "internetBlocked": "DNS/IP restriction active"
+    }
+  },
+  "notifications": {
+    "recentActivity": "Recent Activity",
+    "restrict": "Restrict Notifications",
+    "history": "Notification History",
+    "retention": {
+      "label": "History Retention",
+      "P15D": "15 Days",
+      "P1M": "1 Month",
+      "P3M": "3 Months",
+      "P6M": "6 Months",
+      "P1Y": "1 Year"
+    },
+    "filterFrom": "From",
+    "filterTo": "To",
+    "silenced": "Silenced",
+    "listenerMissing": "Notification access not granted — some notifications may not appear"
+  },
+  "errors": {
+    "E_LOCKED": "Locked — changes not allowed outside maintenance window",
+    "E_INVALID_WINDOW": "Invalid time window",
+    "E_DUPLICATE_HOST": "This domain is already in the list",
+    "E_RESERVED_TLD": "Reserved TLD cannot be used",
+    "E_TAMPER_DETECTED": "Tampering detected — settings have been reset",
+    "E_CLOCK_LOW_CONFIDENCE": "Low clock confidence — all locks are active",
+    "E_INVALID_SCHEMA": "Invalid data",
+    "E_RACE_CONDITION": "Concurrent modification error"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "loading": "Loading...",
+    "today": "Today"
+  }
+}

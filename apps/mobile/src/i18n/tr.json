@@ -1,0 +1,119 @@
+{
+  "tabs": {
+    "dashboard": "Kontrol Paneli",
+    "analytics": "İstatistikler",
+    "notifications": "Bildirimler"
+  },
+  "protection": {
+    "title": "Uygulama Koruması",
+    "immutableMode": "Değiştirilemez Mod",
+    "immutableModeDesc": "Ayarlar bakım penceresi dışında değiştirilemez",
+    "protectedAccess": "Korumalı Erişim",
+    "protectedAccessDesc": "Ayarlara erişim için biyometrik doğrulama gerekir",
+    "tamperProtection": "Kurcalama Koruması",
+    "tamperProtectionDesc": "Uygulamanın kaldırılmasını engeller",
+    "uninstallWindow": "Kaldırma Penceresi",
+    "immutableWindow": "Bakım Penceresi",
+    "windowSuffix": "(10 dk)",
+    "lockedHint": "Bakım penceresi dışında değiştirilemez"
+  },
+  "appBlocking": {
+    "title": "Uygulama ve Grup Engelleme",
+    "searchPlaceholder": "Uygulama ara...",
+    "shortVideoTitle": "Kısa Video Engelleyicisi",
+    "platforms": {
+      "INSTAGRAM_REELS": "Instagram Reels",
+      "YOUTUBE_SHORTS": "YouTube Shorts",
+      "TIKTOK_EXPLORE": "TikTok Keşfet",
+      "REDDIT_VIDEOS": "Reddit Videolar",
+      "SNAPCHAT_STORIES": "Snapchat Hikayeler",
+      "FACEBOOK_REELS": "Facebook Reels"
+    },
+    "universalLimit": "Evrensel Limit",
+    "universalLimitUnit": "dakika",
+    "statusAccessible": "Erişilebilir",
+    "statusBlocked": "Engellendi",
+    "usedOf": "Kullanıldı {{used}} / {{limit}} dk",
+    "groups": {
+      "GAMING": "Oyunlar",
+      "SOCIAL": "Sosyal Medya",
+      "STREAMING": "Yayın Servisleri",
+      "PRODUCTIVITY": "Verimlilik",
+      "CUSTOM": "Özel Grup"
+    }
+  },
+  "websiteBlocker": {
+    "title": "Web Sitesi Engelleyici",
+    "nsfwFilter": "Yetişkin İçerik Filtresi",
+    "nsfwFilterDesc": "Uygunsuz web sitelerini otomatik olarak engeller",
+    "customBlacklist": "Özel Engel Listesi",
+    "addSite": "+ Site Ekle",
+    "sitePlaceholder": "örn: example.com",
+    "errors": {
+      "invalidDomain": "Geçerli bir alan adı giriniz (örn: example.com)",
+      "tooLong": "Alan adı en fazla 253 karakter olabilir",
+      "reservedTld": "Bu alan adı engellenemez (ayrılmış TLD)",
+      "duplicate": "Bu alan adı zaten listede",
+      "vpnFailed": "VPN başlatılamadı — filtre uygulanamıyor"
+    }
+  },
+  "analytics": {
+    "screenTime": "Ekran",
+    "dataUsage": "Veri",
+    "days": {
+      "MON": "Pzt",
+      "TUE": "Sal",
+      "WED": "Çar",
+      "THU": "Per",
+      "FRI": "Cum",
+      "SAT": "Cmt",
+      "SUN": "Paz"
+    },
+    "limitSheet": {
+      "title": "Günlük Limit",
+      "noLimit": "Limit Yok",
+      "minutes": "dk"
+    },
+    "dataRow": {
+      "wifi": "WiFi: {{mb}} MB",
+      "cellular": "Mobil: {{mb}} MB",
+      "internetBlocked": "DNS/IP kısıtlaması aktif"
+    }
+  },
+  "notifications": {
+    "recentActivity": "Son Aktivite",
+    "restrict": "Bildirim Kısıtla",
+    "history": "Bildirim Geçmişi",
+    "retention": {
+      "label": "Geçmiş Saklama Süresi",
+      "P15D": "15 Gün",
+      "P1M": "1 Ay",
+      "P3M": "3 Ay",
+      "P6M": "6 Ay",
+      "P1Y": "1 Yıl"
+    },
+    "filterFrom": "Başlangıç",
+    "filterTo": "Bitiş",
+    "silenced": "Sessiz",
+    "listenerMissing": "Bildirim erişimi verilmedi — bazı bildirimler gösterilmeyebilir"
+  },
+  "errors": {
+    "E_LOCKED": "Kilitli — bakım penceresi dışında değişiklik yapılamaz",
+    "E_INVALID_WINDOW": "Geçersiz zaman penceresi",
+    "E_DUPLICATE_HOST": "Bu alan adı zaten listede",
+    "E_RESERVED_TLD": "Ayrılmış TLD kullanılamaz",
+    "E_TAMPER_DETECTED": "Kurcalama tespit edildi — ayarlar sıfırlandı",
+    "E_CLOCK_LOW_CONFIDENCE": "Saat güvenilirliği düşük — tüm kilitler etkin",
+    "E_INVALID_SCHEMA": "Geçersiz veri",
+    "E_RACE_CONDITION": "Eşzamanlı değişiklik hatası"
+  },
+  "common": {
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "enabled": "Etkin",
+    "disabled": "Devre Dışı",
+    "loading": "Yükleniyor...",
+    "today": "Bugün"
+  }
+}

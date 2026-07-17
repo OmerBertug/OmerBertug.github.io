@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+.expo/
+*.tsbuildinfo
+.DS_Store
+*.log
+.env
+.env.local
+android/.gradle/
+android/build/
+ios/Pods/
+ios/build/
+ios/DerivedData/
+.turbo/
+coverage/
